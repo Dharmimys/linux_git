@@ -1,3 +1,5 @@
+#to  add 2 number 
+
 a=8
 b=25
 echo $((a+b))

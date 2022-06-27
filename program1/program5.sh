@@ -1,3 +1,5 @@
+#adding 2 numbers using line arguements in 2nd method
+
 echo "please enter the 1st no"
 
 read a

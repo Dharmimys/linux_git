@@ -38,3 +38,8 @@ Linux Commands and explaination
 16. cat > a.txt ->it allow ou to overwrite the content in ile on the console itself
 
 17. cat >> a.txt -> this will append new content with existing old content
+
+18. echo -> echo "hello" - this will display name hello in console 
+
+19. sh -> sh file1.sh or sh file1.txt - it will execute shell scripting in console
+

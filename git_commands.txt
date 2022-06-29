@@ -1,0 +1,22 @@
+commands	syntax			explaination
+git clone	git clone repo_url	it will clone to remote repo and make a copy in local repo to modify
+git init	git init		it will initialize the local folder into repo
+
+git status	git status		it will check the status of file which is in stagged are or untracked area
+git add		git add filename	it will add the file to stagged area from untracked area or unstaged area
+		git add . or git add *	it will add all files in that branch to add to stagged area
+		git add -A
+git diff	git diff filename	it will show the modification done on file which is in stagging area
+git commit	git commit -m "meaningfull message" - it will commmit the file which is to be push to the remote repo
+
+git rm		git rm filename		it will remove the specified file from local repo 
+		git rm -r dir_name	it will remove directory or folder from local repo
+
+git push	git push origin branch_name -	it will push the commited file to the remote repo in specified branch
+
+git pull	git pull origin url	it will pull or get a copy of repo which is in remote with specified url
+
+git remote -v	git remote -v		it will display the remote repo url which is currently using
+
+git remote	git remote add origin url - it will connect the remote repo of specified url
+

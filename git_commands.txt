@@ -1,0 +1,40 @@
+commands	syntax			explaination
+git clone	git clone repo_url	it will clone to remote repo and make a copy in local repo to modify
+git init	git init		it will initialize the local folder into repo
+
+git status	git status		it will check the status of file which is in stagged are or untracked area
+git add		git add filename	it will add the file to stagged area from untracked area or unstaged area
+		git add . or git add *	it will add all files in that branch to add to stagged area
+		git add -A
+git diff	git diff filename	it will show the modification done on file which is in stagging area
+git commit	git commit -m "meaningfull message" - it will commmit the file which is to be push to the remote repo
+
+git rm		git rm filename		it will remove the specified file from local repo 
+		git rm -r dir_name	it will remove directory or folder from local repo
+
+git push	git push origin branch_name -	it will push the commited file to the remote repo in specified branch
+
+git pull	git pull origin url	it will pull or get a copy of repo which is in remote with specified url
+
+git remote -v	git remote -v		it will display the remote repo url which is currently using
+
+git remote	git remote add origin url - it will connect the remote repo of specified url
+
+git config	git config --global user.email "email_id" - it will login with specified email id
+
+git branch	git branch		it will list you all branches available
+		git branch -a		it will list all branches which is not shown in branch commands
+		git branch branch_name	it will create a branch with specified branch name
+
+git checkout	git checkout branch_name - it will checkout to specified branch if it is available
+		git checkout -b branch_name - it will create a new branch and checkout to new branch 
+		git checkout brnach_name filename - it will copy file from specified branch to current branch
+
+git merge	git merge branch_name	files in the specified branch is merge with present working branch
+
+git fetch	git fetch origin	it will fetch the remote repo to update the new files to local repo
+
+git log		git log			it will show the previous commit logs of that branch
+
+
+

@@ -1,21 +1,15 @@
 read -p "enter 1st no " n1
 read -p "enter 2nd no " n2
 
-add () {
 echo "menu"
 echo "1 add"
 echo "2 sub"
 echo "3 multi"
 echo "4 div"
-echo "5 exit"
 
 
 read -p "please enter choice operation " c
-}
-add $c
 
-for ((c=1;c<6; ))
-do
 
 
 case $c in
@@ -53,9 +47,3 @@ echo "the quotient is $rem"
 *)
 
 esac
-
-
-add $c
-
-done
-add $c

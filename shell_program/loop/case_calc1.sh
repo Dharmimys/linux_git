@@ -11,18 +11,13 @@ echo "5 exit"
 
 
 read -p "please enter choice operation " c
-}
-add $c
 
-for (( ; ; ))
-do
-if [ $c -lt 6 ]
-then
 case $c in
 
 1)
 sum=$((n1+n2))
 echo "the sum is $sum"
+#add
 ;;
 
 2)
@@ -33,11 +28,13 @@ else
 diff=$((n2-n1))
 fi
 echo "the diff is $diff"
+#add
 ;;
 
 3)
 mul=$((n1*n2))
 echo "the multiplication is $mul"
+#add
 ;;
 
 4)
@@ -45,18 +42,18 @@ quo=$((n1/n2))
 rem=$((n1%n2))
 echo "the quotient is $quo"
 echo "the quotient is $rem"
+#add
 ;;
 
 5)
+echo "Program exit"
+exit
 ;;
 
 *)
-
+echo "Invalid Choice !!"
+add
 esac
-else
+}
 
-add $c
-
-fi
-
-done
+add

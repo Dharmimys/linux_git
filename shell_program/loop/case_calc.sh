@@ -14,7 +14,7 @@ read -p "please enter choice operation " c
 }
 add $c
 
-for ((a=1;a<6; ))
+for ((c=1;c<6; ))
 do
 
 
